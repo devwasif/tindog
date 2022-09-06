@@ -1,0 +1,157 @@
+body{
+    font-family: "montserrat";
+    text-align: center;
+}
+/* Headings */
+.title-heading{
+    font-size: 3.5rem;
+    line-height: 1.3;
+    font-weight: 900;
+}
+.features-heading, .card-heading{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.testimonials-heading, .pricing-heading{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.cta-heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+    padding: 1% 18% 5% ;
+}
+/* Download Butttons */
+.download-button{
+    margin: 10% 1%;
+}
+.cta-button{
+    margin: 0% 1%;
+}
+/* Section Background Color */
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: white;
+}
+/* Navigation Bar */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 1rem;
+}
+.nav-link{
+    font-size: 1.3rem;
+    font-family: "montserrat";
+    font-weight: 500;
+}
+/****Hero Section******/
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+/* Title */
+#title{
+    text-align: left;
+}
+/* Title Image */
+.title-img{
+    width: 70%;
+    transform: rotate(25deg);
+    right: 30%; 
+}
+/* Media Query */
+@media(max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        margin: 20%;
+    }
+    h1{
+        font-size: 2.7rem;
+    }
+}
+/* Features */
+#features{
+    padding: 5% 7%;
+    z-index: 1;
+    position: relative;
+    margin-top: -18%;
+}
+.features-box{
+    padding: 5% 0;
+}
+.features-paragraph{
+    color: #8f8f8f;
+    padding: 0 20%;
+}
+.features-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.features-icon:hover{
+    color: #ff4c68;
+}
+/* Testimonial */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonials-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+/* Press */
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+/* PRICING */
+#pricing{
+    padding: 8% 10%;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.card-pricing{
+    font-family: "montserrat";
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Call to Action */
+#cta{
+    padding: 5% 7%;
+}
+/* Footer Section */
+#footer{
+    padding: 5% 0% 2%;
+}
+.footer-icon{
+    padding: 5px;
+    color: rgb(87, 81, 81);
+}
+.footer-icon:hover{
+    color: #ff4c68;
+}
